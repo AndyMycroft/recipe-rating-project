@@ -5,28 +5,28 @@ Welcome to my project website! This site presents my full data science analysis 
 
 ---
 
-## 📌 Introduction
+Introduction
 *(text will go here)*
 
-## 📌 Data Cleaning and Exploratory Data Analysis
+Cleaning and Exploratory Data Analysis
 *(text + embedded plot will go here)*
 
-## 📌 Assessment of Missingness
+Assessment of Missingness
 *(text + plot)*
 
-## 📌 Hypothesis Testing
+Hypothesis Testing
 *(text + plot)*
 
-## 📌 Framing a Prediction Problem
+Framing a Prediction Problem
 *(text)*
 
-## 📌 Baseline Model
+Baseline Model
 *(text)*
 
-## 📌 Final Model
+Final Model
 *(text)*
 
-## 📌 Fairness Analysis
+Fairness Analysis
 *(text + plot)*
 
 ---
