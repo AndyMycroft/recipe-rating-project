@@ -15,6 +15,12 @@ Welcome to my project website! This site presents my full data science analysis 
   height="500"
   frameborder="0"
 ></iframe>
+<iframe
+  src="assets/n_ingredients_distribution.html"
+  width="800"
+  height="500"
+  frameborder="0"
+></iframe>
 
 
 ## Assessment of Missingness
