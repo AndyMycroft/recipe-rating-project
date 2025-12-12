@@ -38,7 +38,16 @@ extremely complex recipes are relatively uncommon.
   height="600"
   frameborder="0"
 ></iframe>
-
+This scatter plot shows the relationship between the number of ingredients and average recipe rating.
+Most recipes contain between 5 and 15 ingredients, and average ratings are generally high across all levels of recipe complexity.
+However, there is no clear linear relationship between ingredient count and rating, as recipes with both few and many ingredients can receive high or low ratings.
+This suggests that ingredient count alone does not strongly determine how a recipe is rated, motivating the use of additional features and predictive models in later steps.
+<iframe
+  src="assets/ingredients_vs_rating.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 ## Assessment of Missingness
 *(text + plot)*
