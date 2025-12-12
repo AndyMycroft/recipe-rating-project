@@ -1,4 +1,4 @@
-# Recipe Rating Analysis
+# What Makes a Recipe Highly Rated?
 ### DSC80 Final Project – Fall 2025
 
 Welcome to my project website! This site presents my full data science analysis on the Recipes & Ratings dataset from Food.com.
@@ -111,6 +111,27 @@ indicating that the engineered features help capture additional information
 relevant to predicting high-rated recipes.
 
 ## Fairness Analysis
-*(text + plot)*
-
+To assess whether the final model performs differently across recipe types,
+a fairness analysis was conducted comparing **simple** and **complex** recipes.
+Recipe complexity was defined based on whether the number of ingredients was
+below or above the median.
+Model performance was evaluated using **accuracy**, computed separately for each
+group. The observed accuracy for simple recipes was approximately **0.900**,
+while the accuracy for complex recipes was approximately **0.904**, resulting in
+an observed accuracy difference of about **−0.0036**.
+To determine whether this difference could be attributed to random chance, a
+permutation test with 1000 repetitions was performed. The resulting p-value was
+**0.40**.
+Since the p-value is greater than 0.05, we fail to reject the null hypothesis.
+There is no statistically significant evidence that the model performs
+differently for simple versus complex recipes. This suggests that the final
+model does not exhibit measurable unfairness with respect to recipe complexity.
+<iframe
+  src="assets/fairness_permutation.html"
+  width="800"
+  height="500"
+  frameborder="0">
+</iframe>
+This plot shows the distribution of accuracy differences obtained by randomly
+permuting recipe complexity labels.
 ---
