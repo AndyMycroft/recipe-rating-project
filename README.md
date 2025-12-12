@@ -6,7 +6,27 @@ Welcome to my project website! This site presents my full data science analysis 
 ---
 
 ## Introduction
-*(text will go here)*
+Online recipe platforms rely heavily on user ratings to determine which recipes
+are promoted, recommended, or featured. However, recipes can vary widely in
+their complexity, cooking time, nutritional content, and structure. This raises
+an important question: what actually makes a recipe well-rated?
+
+In this project, I analyze the Recipes and Ratings dataset from Food.com, which
+contains tens of thousands of user-submitted recipes along with user ratings and
+interaction data. By combining recipe metadata with aggregated user ratings, this
+dataset provides a rich opportunity to study how recipe characteristics relate
+to user preferences.
+
+The central question of this project is:
+
+What factors influence how highly a recipe is rated, and can we predict whether
+a recipe will receive a high average rating (≥ 4)?
+
+Understanding these patterns is valuable for multiple audiences. Home cooks may
+gain insights into how to design clearer or more appealing recipes, while recipe
+platforms can use such insights to improve recommendation systems and search
+rankings. More broadly, this project demonstrates how data science can be used to
+connect human preferences with structural features in real-world datasets.
 
 ## Cleaning and Exploratory Data Analysis
 This histogram shows the distribution of the number of ingredients across recipes.
