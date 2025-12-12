@@ -72,10 +72,27 @@ The observed mean difference falls entirely within the permutation distribution,
   frameborder="0"
 ></iframe>
 ## Framing a Prediction Problem
-*(text)*
+We frame a binary classification problem to predict whether a recipe will receive a high average rating (4 or higher).
+The response variable indicates whether a recipe is well-received by users, based on its average rating. This framing reflects a practical goal for recipe platforms: identifying recipes that are likely to be positively received.
+Predictions are made at the time a recipe is submitted, using only information available at that point, such as the number of ingredients, preparation steps, cooking time, and nutritional information. User ratings and reviews are intentionally excluded to avoid data leakage.
+Model performance is evaluated using accuracy, which is appropriate given the binary nature of the task and the relatively balanced classes.
 
 ## Baseline Model
-*(text)*
+The goal of this prediction task is to determine whether a recipe will receive a
+high average user rating.
+
+The response variable is a binary indicator, **high_rating**, defined as whether
+a recipe’s average rating is at least 4. This makes the task a **binary
+classification problem**.
+
+Predictions are made at the time a recipe is submitted, before any user ratings
+are available. Therefore, only features known at submission time are used, such
+as the number of ingredients, number of steps, cooking time, and nutritional
+information. User ratings and reviews are not used as predictors.
+
+Model performance is evaluated using **accuracy**, which is appropriate because
+the classes are reasonably balanced and the prediction task is categorical.
+
 
 ## Final Model
 *(text)*
