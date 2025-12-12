@@ -9,7 +9,13 @@ Welcome to my project website! This site presents my full data science analysis 
 *(text will go here)*
 
 ## Cleaning and Exploratory Data Analysis
-*(text + embedded plot will go here)*
+<iframe
+  src="assets/n_ingredients_vs_rating.html"
+  width="800"
+  height="500"
+  frameborder="0"
+></iframe>
+
 
 ## Assessment of Missingness
 *(text + plot)*
