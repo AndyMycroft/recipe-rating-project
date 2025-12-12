@@ -9,7 +9,7 @@ Welcome to my project website! This site presents my full data science analysis 
 Online recipe platforms rely heavily on user ratings to determine which recipes
 are promoted, recommended, or featured. However, recipes can vary widely in
 their complexity, cooking time, nutritional content, and structure. This raises
-an important question: what actually makes a recipe well-rated?
+an important question: what actually makes a recipe well rated?
 
 In this project, I analyze the Recipes and Ratings dataset from Food.com, which
 contains tens of thousands of user-submitted recipes along with user ratings and
@@ -38,6 +38,7 @@ extremely complex recipes are relatively uncommon.
   height="600"
   frameborder="0"
 ></iframe>
+
 This scatter plot shows the relationship between the number of ingredients and average recipe rating.
 Most recipes contain between 5 and 15 ingredients, and average ratings are generally high across all levels of recipe complexity.
 However, there is no clear linear relationship between ingredient count and rating, as recipes with both few and many ingredients can receive high or low ratings.
