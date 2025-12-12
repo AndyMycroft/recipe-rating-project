@@ -51,7 +51,16 @@ This suggests that ingredient count alone does not strongly determine how a reci
 ></iframe>
 
 ## Assessment of Missingness
-*(text + plot)*
+
+This plot compares the distribution of number of ingredients between recipes
+with missing ratings and those with observed ratings.
+
+<iframe
+  src="assets/ingredients_by_rating_missing.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 ## Hypothesis Testing
 *(text + plot)*
