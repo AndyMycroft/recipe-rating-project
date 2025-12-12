@@ -78,24 +78,37 @@ Predictions are made at the time a recipe is submitted, using only information a
 Model performance is evaluated using accuracy, which is appropriate given the binary nature of the task and the relatively balanced classes.
 
 ## Baseline Model
-The goal of this prediction task is to determine whether a recipe will receive a
-high average user rating.
+As a baseline, a logistic regression classifier was trained using only basic
+numerical features available at the time of recipe submission.
 
-The response variable is a binary indicator, **high_rating**, defined as whether
-a recipe’s average rating is at least 4. This makes the task a **binary
-classification problem**.
+The features used include:
+- Number of ingredients
+- Number of preparation steps
+- Total cooking time
 
-Predictions are made at the time a recipe is submitted, before any user ratings
-are available. Therefore, only features known at submission time are used, such
-as the number of ingredients, number of steps, cooking time, and nutritional
-information. User ratings and reviews are not used as predictors.
+This model serves as a simple and interpretable reference point rather than an
+attempt to maximize performance. It achieved an accuracy of approximately
+**0.90** on a held-out test set.
 
-Model performance is evaluated using **accuracy**, which is appropriate because
-the classes are reasonably balanced and the prediction task is categorical.
+The baseline model establishes a benchmark against which more complex models can
+be compared.
 
 
 ## Final Model
-*(text)*
+The final model improves upon the baseline by incorporating engineered features
+that better capture recipe complexity and nutritional structure.
+
+In addition to the baseline features, the following engineered features were
+introduced:
+- Calories per ingredient
+- Steps per minute
+
+A logistic regression model was again used to maintain interpretability. Model
+hyperparameters were selected using cross-validation.
+
+The final model achieved a slightly higher accuracy than the baseline model,
+indicating that the engineered features help capture additional information
+relevant to predicting high-rated recipes.
 
 ## Fairness Analysis
 *(text + plot)*
