@@ -35,7 +35,7 @@ extremely complex recipes are relatively uncommon.
 <iframe
   src="assets/n_ingredients_distribution.html"
   width="800"
-  height="500"
+  height="600"
   frameborder="0"
 ></iframe>
 
